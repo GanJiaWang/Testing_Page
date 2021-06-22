@@ -4,7 +4,7 @@ const app = express();
 const http = require("http");
 const server = http.Server(app);
 
-app.use(express.static("public"));
+app.use(express.static("src"));
 
 app.listen(PORT, () => console.log("Listening on Port", PORT));
 
